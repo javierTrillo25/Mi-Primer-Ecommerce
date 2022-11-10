@@ -1,0 +1,114 @@
+.imagen{
+    max-width:100%;
+}
+
+a{
+    cursor:pointer;
+}
+
+
+
+.alerta{
+    font-weight:700;
+}
+body{
+    background-color: #bcd3ac91;
+    overflow-x: hidden;
+    justify-content: center
+    
+}
+
+.card-img-top{
+justify-content: space-between
+
+}
+
+.modal-contenedor{
+    display:flex;
+    align-items: center;
+    gap:2rem;
+}
+.img-carrito{
+    width:200px;
+    padding:20px;
+} 
+.modal-content{
+    background-color: #d4dccfd0;
+}
+.parrafo{
+    font-weight: 1000;
+    font-style: italic;
+}
+#precioTotal{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+.boton{
+    opacity:0;
+}
+
+footer {
+    display: flex;
+}
+
+.footerLeft {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.fMenuTitle {
+    font-size: 16px;
+}
+
+.fList {
+    padding: 0;
+    list-style: none;
+}
+
+.fListItem {
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.footerRight {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer{
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .footerLeft{
+    padding: 20px;
+    width: 90%;
+    }
+
+    .footerRight{
+    padding: 20px;
+    width: 90%;
+    align-items: center;
+    background-color: whitesmoke;
+    }
+
+    .fIcons{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .fIcon{
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    
